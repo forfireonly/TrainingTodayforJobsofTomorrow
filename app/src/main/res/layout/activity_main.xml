@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D47A1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/img4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginbottom1"
+        android:layout_marginTop="@dimen/margintop1"
+        android:background="@color/backgroundcolor1"
+        android:text="@string/text1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textcolor1"
+        android:textSize="@dimen/textsize1" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img4"
+        android:background="@drawable/udacity" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/learning"
+
+        />
+
+    <TextView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_marginLeft="@dimen/marginleft4"
+        android:layout_marginTop="@dimen/margintop4"
+        android:autoLink="map"
+        android:drawableLeft="@drawable/address"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text4"
+        android:textColorLink="@color/textcolor4"
+        android:textSize="@dimen/textsize4"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img2"
+        android:layout_marginLeft="@dimen/marginleft5"
+        android:layout_marginTop="@dimen/margintop5"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/phone"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text5"
+        android:textColorLink="@color/textcolor5"
+        android:textSize="@dimen/textsize5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img3"
+        android:layout_marginLeft="@dimen/marginleft6"
+        android:layout_marginTop="@dimen/margintop6"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/computer"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text6"
+        android:textColorLink="@color/colortext6"
+        android:textSize="@dimen/textsize6"
+        android:textStyle="bold" />
+
+</RelativeLayout>
